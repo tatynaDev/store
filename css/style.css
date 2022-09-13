@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+#header {
+    width: 1300px;
+    height: 100px;
+    background: linear-gradient(to right, darkgreen, purple);
+}
+
+.logo h1 {
+    font-family: "Noto Sans Brahmi", sans-serif ;
+    font-size: 15px;
+    padding: 5px 100px;
+    color: yellow;
+    font-style: italic;
+    margin-left: -130px;
+}
+
+.logo h2 {
+    font-family: "Noto Sans Brahmi", sans-serif ;
+    font-size: 15px;
+    padding: 5px 100px;
+    color: yellow;
+    font-style: italic;
+    margin-left: -145px;
+}
+
+.logo h3 {
+    font-family: "Noto Sans Brahmi", sans-serif ;
+    font-size: 15px;
+    padding: 5px 100px;
+    color: yellow;
+    font-style: italic;
+    margin-left: -160px;
+}
+
+.sell {
+    margin-left: -90px;
+}
+
+.sell h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: red;
+    font-style: italic;
+}
+
+.sell h2 {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: red;
+    margin-left: -20px;
+    font-style: italic;
+}
+
+.header {
+    display: flex;
+}
+
+.name {
+    display: flex;
+    margin-left: 85px;
+    margin-top: 10px;
+}
+
+
+.icon {
+    font-size: 70px;
+    margin-left: 130px;
+    color: #fff;
+    text-shadow:
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 40px #0ff,
+            0 0 80px #0ff,
+            0 0 90px #0ff,
+            0 0 100px #0ff,
+            0 0 150px #0ff;
+}
+
+.name h1 {
+    font-size: 70px;
+    color: #fff;
+    text-shadow:
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 40px #0ff,
+            0 0 80px #0ff,
+            0 0 90px #0ff,
+            0 0 100px #0ff,
+            0 0 150px #0ff;
+}
+
+.hero-tabs {
+    margin-top: 20px;
+}
+
+.hero-tabs input{
+    display: none;
+}
+
+#LADIES:checked ~ .GENTELMEN,
+#LADIES:checked ~ .SHOES {
+    display: none;
+}
+
+#GENTELMEN:checked ~ .LADIES,
+#GENTELMEN:checked ~ .SHOES {
+    display: none;
+}
+
+#SHOES:checked ~ .GENTELMEN,
+#SHOES:checked ~ .LADIES {
+    display: none;
+}
+
+.hero-tabs img {
+    width: 130px;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.hero-label {
+    padding-top: 20px;
+}
+
+.hero-label label {
+    padding: 8px 32px;
+    background: linear-gradient(to left, #eeeeee, #00ffff);
+    color: #191970;
+    font-family: sans-serif;
+    font-size: medium;
+    margin: 0 70px;
+    transition: color.4s;
+}
+
+.hero-label label:hover {
+    background: linear-gradient( TO RIGHT, #00ffff, purple);
+
+}
+
+.header-nav select {
+    background:linear-gradient(to left, #eeeeee, #00ffff) ;
+    color:  darkgreen;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 270px;
+    margin-top: 38px;
+}
+
+.buy {
+    color: #fff;
+    font-size: 36px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

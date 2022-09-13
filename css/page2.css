@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+#header {
+    width: 1300px;
+    height: 100px;
+    background: linear-gradient(to right, darkgreen, purple);
+}
+
+.logo h1 {
+    font-family: "Noto Sans Brahmi", sans-serif ;
+    font-size: 15px;
+    padding: 5px 100px;
+    color: yellow;
+    font-style: italic;
+    margin-left: -130px;
+}
+
+.logo h2 {
+    font-family: "Noto Sans Brahmi", sans-serif ;
+    font-size: 15px;
+    padding: 5px 100px;
+    color: yellow;
+    font-style: italic;
+    margin-left: -145px;
+}
+
+.logo h3 {
+    font-family: "Noto Sans Brahmi", sans-serif ;
+    font-size: 15px;
+    padding: 5px 100px;
+    color: yellow;
+    font-style: italic;
+    margin-left: -160px;
+}
+
+.sell {
+    margin-left: -90px;
+}
+
+.sell h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: red;
+    font-style: italic;
+}
+
+.sell h2 {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: red;
+    margin-left: -20px;
+    font-style: italic;
+}
+
+.header {
+    display: flex;
+}
+
+.name {
+    display: flex;
+    margin-left: 85px;
+    margin-top: 10px;
+}
+
+
+.icon {
+    font-size: 70px;
+    margin-left: 130px;
+    color: #fff;
+    text-shadow:
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 40px #0ff,
+            0 0 80px #0ff,
+            0 0 90px #0ff,
+            0 0 100px #0ff,
+            0 0 150px #0ff;
+}
+
+.name h1 {
+    font-size: 70px;
+    color: #fff;
+    text-shadow:
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 40px #0ff,
+            0 0 80px #0ff,
+            0 0 90px #0ff,
+            0 0 100px #0ff,
+            0 0 150px #0ff;
+}
+
+.hero-tabs {
+    margin-top: 20px;
+}
+
+.hero-tabs img {
+    width: 200px;
+    height: 250px;
+}
+
+.ladies {
+    display: flex;
+    flex-direction: column;
+}
+.men {
+    display: flex;
+    flex-direction: column;
+}
+.shoes {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
